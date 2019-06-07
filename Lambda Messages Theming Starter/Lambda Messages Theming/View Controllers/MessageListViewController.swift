@@ -76,7 +76,8 @@ class MessageListViewController: UIViewController, UITableViewDelegate, UITableV
         tableView.backgroundColor = AppearanceHelper.backgroundGray
         tableView.tableHeaderView?.backgroundColor = AppearanceHelper.backgroundGray
         
-        AppearanceHelper.style(button: newMessageButton)
+//        AppearanceHelper.style(button: newMessageButton)
+        newMessageButton.style()
         newMessageButton.layer.cornerRadius = newMessageButton.frame.width / 2
         newMessageButton.titleLabel?.font = UIFont.systemFont(ofSize: 15)
     }

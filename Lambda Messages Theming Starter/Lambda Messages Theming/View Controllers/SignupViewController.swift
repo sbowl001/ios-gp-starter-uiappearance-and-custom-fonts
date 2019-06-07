@@ -31,7 +31,8 @@ class SignupViewController: UIViewController {
     private func setupAppearances(){
         view.backgroundColor = AppearanceHelper.backgroundGray
         usernameTextField.font = AppearanceHelper.typerighterFont(with: .callout, pointSize: 28)
-        AppearanceHelper.style(button: signupButton)
+//        AppearanceHelper.style(button: signupButton)
+        signupButton.style()
         usernameTextField.keyboardAppearance = .dark
     }
     

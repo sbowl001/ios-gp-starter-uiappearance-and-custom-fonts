@@ -53,8 +53,10 @@ class MessageCreationViewController: UIViewController, UINavigationBarDelegate {
         messageTextView.layer.borderWidth = 0.5
         messageTextView.layer.cornerRadius = 8.0
         messageTextView.keyboardAppearance = .dark
-        AppearanceHelper.style(button: clearTextButton)
-        AppearanceHelper.style(button: sendMessageButton)
+//        AppearanceHelper.style(button: clearTextButton)
+//        AppearanceHelper.style(button: sendMessageButton)
+        clearTextButton.style()
+        sendMessageButton.style()
         
     }
  
